@@ -1,1 +1,4 @@
-# mahuateng.mumisin.icu
+# Domain
+
+- mumisin.icu
+- loliis.top
