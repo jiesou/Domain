@@ -15,7 +15,14 @@ jobs:
         node-version: "14"
 
     - name: Setup VuePress
+      env:
+        SSH_PRIVATE: ${{ secrets.DEPLOY_KEY }}
       run: |
+        mkdir -p ~/.ssh/
+        echo "$SSH_PRIVATE" > ~/.ssh/id_rsa
+        chmod 700 ~/.ssh
+        chmod 600 ~/.ssh/id_rsa
+        ssh-keyscan github.com >> ~/.ssh/known_hosts
         git config --global user.name "jiesou"
         git config --global user.email "jiechushou@github.com"
         npm install -g vuepress
