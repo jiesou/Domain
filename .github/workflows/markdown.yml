@@ -1,0 +1,22 @@
+name: Markdown Rendering
+on: [push]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v2
+      with:
+        ref: main
+
+    - name: Rendering
+      uses: natescherer/markdown-to-html-with-github-style-action@v1.1.0
+      with:
+        path: src
+        outputpath: /
+        matchpathstructure: true
+
+    - name: Commit
+      if: github.event_name != 'pull_request_target'
+      run: |
+        (git add . && git commit -m "Actions: Update" && git push) || true
