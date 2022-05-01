@@ -9,6 +9,11 @@ jobs:
       with:
         ref: main
 
+    - name: Setup Git
+      run: |
+        git config --global user.name "jiesou"
+        git config --global user.email "jiechushou@github.com"
+
     - name: Rendering
       uses: natescherer/markdown-to-html-with-github-style-action@v1.1.0
       with:
