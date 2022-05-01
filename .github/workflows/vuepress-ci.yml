@@ -1,0 +1,44 @@
+name: VuePress
+on: [push,pull_request_target]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v2
+      with:
+        ref: main
+
+    - name: Setup Node
+      uses: actions/setup-node@v1
+      with:
+        node-version: "14"
+
+    - name: Setup VuePress
+      run: |
+        git config --global user.name "jiesou"
+        git config --global user.email "jiechushou@github.com"
+        npm install -g vuepress
+
+    - name: Cache node modules
+      id: cache-node-modules
+      uses: actions/cache@v3
+      with:
+        path: node_modules
+        key: ${{ runner.os }}-nodemodules-${{ hashFiles('**/package-lock.json') }}
+        restore-keys: |
+          ${{ runner.os }}-nodemodules-
+
+    - name: Install node modules
+      if: steps.cache-node-modules.outputs.cache-hit != 'true'
+      run: npm install
+
+    - name: VuePress Deploy
+      if: github.event_name != 'pull_request_target'
+      run: |
+        npm run deploy
+
+    - name: Commit
+      if: github.event_name != 'pull_request_target'
+      run: |
+        (git add . && git commit -m "Actions: Update" && git push) || true
