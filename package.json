@@ -5,6 +5,6 @@
   "scripts": {
     "dev": "vuepress dev",
     "build": "vuepress build",
-    "deploy": "npm run build && bash scripts/deploy.sh"
+    "deploy": "bash scripts/deploy.sh"
   }
 }
