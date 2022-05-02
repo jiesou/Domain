@@ -26,7 +26,6 @@ module.exports = {
       },
       canonical_base: 'https://loliis.top',
     },
-    'vuepress-plugin-baidu-autopush': {},
     'sitemap': {
       hostname: 'https://loliis.top',
       exclude: [
