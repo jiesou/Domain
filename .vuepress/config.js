@@ -9,7 +9,6 @@ module.exports = {
     externalLinks: { target: '_blank', rel: 'noopener noreferrer nofollow' }
   },
   head: [
-    ['meta', { 'http-equiv': 'X-UA-Compatible', content: 'IE=edge' }]
     ['meta', { name: 'robots', content: 'index' }]
   ],
   themeConfig: {
@@ -31,9 +30,6 @@ module.exports = {
       exclude: [
         '/404.html'
       ],
-      urls: [
-        { url: '/index.html', changefreq: 'montly'}
-      ]
     }
   }
 }
