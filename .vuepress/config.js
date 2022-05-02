@@ -1,16 +1,35 @@
 module.exports = {
-  title: 'LOLI IS TOP 萝莉赛高！',
-  description: '萝莉二次元动漫图片API合集导航',
-  lang: 'zh-CN',
+  locales: {
+    '/': {
+      lang: 'zh-CN',
+      title: 'LOLI IS TOP 萝莉赛高！',
+    }
+  },
   head: [
-    ['meta', { name: 'robots', content: 'index, nofollow' }]
+    ['meta', { name: 'robots', content: 'index' }]
   ],
   themeConfig: {
-    sidebar: 'auto',
     nav: [
       {text: '萝莉色图', link: '/setu.html'},
       {text: '赞助', link: '/donate.html'},
     ],
      lastUpdated: '上次更新'
+  },
+  plugins: {
+    'sitemap': {
+      hostname: 'https://loliis.top',
+      exclude: [
+        '/404.html'
+      ],
+      urls: [
+        { url: '/index.html', changefreq: 'montly'}
+      ]
+    },
+    'autometa': {
+      site: {
+        name: 'LOLI IS TOP | 萝莉赛高 - 聚合导航',
+      },
+      canonical_base: 'https://loliis.top',
+    }
   }
 }

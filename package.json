@@ -5,6 +5,10 @@
   "scripts": {
     "dev": "vuepress dev",
     "build": "vuepress build",
-    "deploy": "bash scripts/deploy.sh"
+    "deploy": "bash .vuepress/scripts/deploy.sh"
+  },
+  "dependencies": {
+    "vuepress-plugin-autometa": "^0.1.13",
+    "vuepress-plugin-sitemap": "^2.3.1"
   }
 }
