@@ -4,13 +4,15 @@ title: 萝莉色图
 
 > loli 图片相关 API 合集 欢迎使用
 
-## lolicon 封装 <Badge text="自建" />
+## lolicon <Badge text="可设置R18" type="warning"/>
+
+### 302封装 <Badge text="自建" /><Badge text="只支持302" />
 
 ```
 https://lolicon.jiecs.workers.dev
 ```
 
-是[loliconAPI](https://api.lolicon.app/#/setu)的封装
+是原版的封装
 
 比原 API 加了个 302 跳转，自动跳转到第一张图片，指定多个清晰度时跳转第一个
 
@@ -18,8 +20,124 @@ https://lolicon.jiecs.workers.dev
 
 `https://api.lolicon.app/setu/v2?proxy=i.pixiv.re&size=regular&r18=0&tag=萝莉&tag=白丝`
 
-只要换成
+只要换域名
 
 `https://lolicon.jiecs.workers.dev/?proxy=i.pixiv.re&size=regular&r18=0&tag=萝莉&tag=白丝`
 
 即可
+
+### 原版
+
+```
+https://api.lolicon.app/setu/v2
+```
+
+:::tip 来源
+<https://api.lolicon.app/#/setu>
+:::
+
+可设置项较多，详细使用方式参见来源文档
+
+:::details 响应示例
+```json
+{
+  "error": "",
+  "data": [
+    {
+      "pid": 96295224,
+      "p": 0,
+      "uid": 15536546,
+      "title": "バレンタイン白上",
+      "author": "陽ノかぐつき",
+      "r18": false,
+      "width": 1240,
+      "height": 1754,
+      "tags": [
+        "バーチャルYouTuber",
+        "虚拟YouTuber",
+        "ホロライブ",
+        "Hololive",
+        "白上フブキ",
+        "白上吹雪"
+      ],
+      "ext": "png",
+      "uploadDate": 1644985289000,
+      "urls": {
+        "original": "https://i.pixiv.cat/img-original/img/2022/02/16/13/21/29/96295224_p0.png"
+      }
+    }
+  ]
+}
+```
+:::
+
+
+## 樱花 - 随机二次元图片
+
+```
+https://www.dmoe.cc/random.php
+```
+
+:::tip 来源
+<https://www.dmoe.cc>
+:::
+
+可添加参数 `type=json` 即 `https://www.dmoe.cc/random.php?return=json`
+
+:::details 响应示例
+```json
+{
+    "code":"200"
+    "acgurl":"https:\/\/ws1.sinaimg.cn\/large\/0072Vf1pgy1foxkfy08umj31kw0w0nng.jpg"
+    "width":"2048"
+    "height":"1152"
+}
+```
+:::
+
+## 小歪 - 二次元动漫动漫
+
+```
+https://api.ixiaowai.cn/api/api.php
+```
+
+:::tip 来源
+<https://api.ixiaowai.cn>
+:::
+
+可添加参数 `type=json` 即 `https://api.ixiaowai.cn/api/api.php?return=json`
+
+:::details 响应示例
+```json
+{
+    "code":"200"
+    "acgurl":"https:\/\/ws1.sinaimg.cn\/large\/0072Vf1pgy1foxkjcneg1j31kw0w0hbs.jpg"
+    "width":"2048"
+    "height":"1152"
+}
+```
+:::
+
+## 韩小韩 - 随机二次元图片
+
+```
+https://api.vvhan.com/api/acgimg
+```
+
+:::tip 来源
+<https://api.vvhan.com/dongman.html>
+:::
+
+可添加参数 `type=json` 即 `https://api.vvhan.com/api/acgimg?type=json`
+
+:::details 响应示例
+```json
+{
+  "code": "200",
+  "acgurl": "http://url.vvhan.com/viewimg/api.vvhan.com[16].jpg",
+  "width": "2048",
+  "height": "1152",
+  "size": "jpg"
+}
+```
+:::

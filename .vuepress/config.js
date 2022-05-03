@@ -12,6 +12,7 @@ module.exports = {
     ['meta', { name: 'robots', content: 'index' }]
   ],
   themeConfig: {
+    sidebar: 'auto',
     nav: [
       { text: '萝莉色图', link: '/setu.html'},
       { text: '赞助', link: '/donate.html'},
