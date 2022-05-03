@@ -37,7 +37,7 @@ module.exports = {
         '/404.html'
       ],
       urls: [
-        { url: '/index.html'}
+        { url: '/index.html', changefreq: 'monthly' }
       ]
     }
   }

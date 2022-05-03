@@ -1,6 +1,6 @@
 #!/usr/bin/env sh
 set -e
-vuepress build
+vuepress build --debug
 cd .vuepress/dist
 
 git init
