@@ -26,6 +26,11 @@ module.exports = {
         name: 'LOLI IS TOP | 萝莉赛高 - 聚合导航',
       },
     },
+    '@vuepress/last-updated':{
+      transformer: (timestamp, lang) => {
+        return new Date(timestamp).toLocaleDateString();
+      }
+    },
     'sitemap': {
       hostname: 'https://loliis.top',
       exclude: [
