@@ -25,7 +25,6 @@ module.exports = {
       site: {
         name: 'LOLI IS TOP | 萝莉赛高 - 聚合导航',
       },
-      canonical_base: 'https://loliis.top',
     },
     'sitemap': {
       hostname: 'https://loliis.top',
