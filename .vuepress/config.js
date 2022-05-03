@@ -9,7 +9,8 @@ module.exports = {
     externalLinks: { target: '_blank', rel: 'noopener noreferrer nofollow' }
   },
   head: [
-    ['meta', { name: 'robots', content: 'index' }]
+    ['meta', { name: 'robots', content: 'index' }],
+    ['script', {}, 'var _hmt = _hmt || [];(function() {var hm = document.createElement("script");hm.src = "https://hm.baidu.com/hm.js?69df9203fa509c9541b75ea58bf2de0d";var s = document.getElementsByTagName("script")[0];  s.parentNode.insertBefore(hm, s);})();']
   ],
   themeConfig: {
     sidebar: 'auto',
