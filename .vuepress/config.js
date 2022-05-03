@@ -35,9 +35,6 @@ module.exports = {
       hostname: 'https://loliis.top',
       exclude: [
         '/404.html'
-      ],
-      urls: [
-        { url: '/index.html', changefreq: 'monthly' }
       ]
     }
   }
