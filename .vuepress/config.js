@@ -34,6 +34,9 @@ module.exports = {
       exclude: [
         '/404.html'
       ],
+      urls: [
+        { url: '/index.html', changefreq: 'montly'}
+      ]
     }
   }
 }
