@@ -25,7 +25,7 @@ jobs:
         ssh-keyscan github.com >> ~/.ssh/known_hosts
         git config --global user.name "jiesou"
         git config --global user.email "jiechushou@github.com"
-        yarn global add vuepress
+        npm install -g vuepress
 
     - name: Cache node modules
       id: cache-node-modules
@@ -38,12 +38,12 @@ jobs:
 
     - name: Install node modules
       if: steps.cache-node-modules.outputs.cache-hit != 'true'
-      run: yarn
+      run: npm install
 
     - name: VuePress Deploy
       if: github.event_name != 'pull_request_target'
       run: |
-        yarn deploy
+        npm run deploy
 
     - name: Commit
       if: github.event_name != 'pull_request_target'
