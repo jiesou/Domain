@@ -1,0 +1,11 @@
+[
+  {
+    "file": "./favicon/index.json",
+    "ext": "webp"
+  },
+  {
+    "file": "./favicon.png",
+    "ext": "png",
+    "size": "320x320"
+  }
+]
