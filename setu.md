@@ -26,7 +26,7 @@ https://lolicon.jiecs.workers.dev
 
 即可
 
-### 原版
+### 原版 <Badge text="只支持JSON" />
 
 ```
 https://api.lolicon.app/setu/v2
@@ -141,3 +141,36 @@ https://api.vvhan.com/api/acgimg
 }
 ```
 :::
+
+## 惜染 - 随机动漫图片 <Badge text="只支持302" />
+
+### 手机端
+
+```
+https://api.hefollo.com/API/dongman.php
+```
+
+:::tip 来源
+<https://api.hefollo.com/?action=doc&id=27>
+:::
+
+### PC端
+
+```
+https://api.hefollo.com/API/dongmanpc.php
+```
+
+:::tip 来源
+<https://api.hefollo.com/?action=doc&id=15>
+:::
+
+### PC端4K
+
+```
+https://api.hefollo.com/API/4k.php
+```
+
+:::tip 来源
+<https://api.hefollo.com/?action=doc&id=14>
+:::
+
