@@ -1,5 +1,5 @@
 name: VuePress
-on: [push,pull_request_target]
+on: [push,pull_request]
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -23,8 +23,8 @@ jobs:
         chmod 700 ~/.ssh
         chmod 600 ~/.ssh/id_rsa
         ssh-keyscan github.com >> ~/.ssh/known_hosts
-        git config --global user.name "jiesou"
-        git config --global user.email "jiechushou@github.com"
+        git config --global user.name "github-actions[bot]"
+        git config --global user.email "github-actions[bot]@users.noreply.github.com"
         yarn global add vuepress
 
     - name: Cache node modules
@@ -41,11 +41,16 @@ jobs:
       run: yarn
 
     - name: VuePress Deploy
-      if: github.event_name != 'pull_request_target'
+      if: github.event_name != 'pull_request'
       run: |
         yarn deploy
 
-    - name: Commit
-      if: github.event_name != 'pull_request_target'
+    - name: VuePress Build
+      if: github.event_name == 'pull_request'
       run: |
-        (git add . && git commit -m "Actions: Update" && git push) || true
+        vuepress build
+
+    - name: Commit
+      if: github.event_name != 'pull_request'
+      run: |
+        (git add . && git commit -m "Actions: Update" && git push -f) || true
