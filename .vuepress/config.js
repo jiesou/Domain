@@ -10,6 +10,8 @@ module.exports = {
   },
   head: [
     ['meta', { name: 'robots', content: 'index' }],
+    ['meta', { 'http-equiv': 'X-UA-Compatible', content: 'IE=edge'}],
+    ['link', { rel: 'icon', href: '/favicon.ico'}],
     ['script', {}, 'var _hmt = _hmt || [];(function() {var hm = document.createElement("script");hm.src = "https://hm.baidu.com/hm.js?69df9203fa509c9541b75ea58bf2de0d";var s = document.getElementsByTagName("script")[0];  s.parentNode.insertBefore(hm, s);})();']
   ],
   themeConfig: {
@@ -35,6 +37,9 @@ module.exports = {
       hostname: 'https://loliis.top',
       exclude: [
         '/404.html'
+      ],
+      urls: [
+        { url: '/index.html', changefreq: 'monthly'}
       ]
     }
   }
