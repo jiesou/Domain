@@ -142,6 +142,18 @@ https://api.vvhan.com/api/acgimg
 ```
 :::
 
+## EEE.DOG - 随机二次元图片 <Badge text="只支持302" /><Badge text="可设置R18" type="warning"/>
+
+```
+https://api.yimian.xyz/img?type=moe
+```
+
+:::tip 来源
+<https://www.eee.dog/tech/rand-pic-api.html>
+:::
+
+可设置项较多，详细使用方式参见来源文档
+
 ## 惜染 - 随机动漫图片 <Badge text="只支持302" />
 
 ### 手机端
