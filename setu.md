@@ -2,7 +2,9 @@
 title: 萝莉色图
 ---
 
-> loli 图片相关 API 合集 欢迎使用
+> 请求收录请联系 i@mail.jiecs.top
+
+> 支持我们请[点此](/donate.html)
 
 ## lolicon <Badge text="可设置R18" type="warning"/>
 
