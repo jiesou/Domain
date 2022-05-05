@@ -186,3 +186,25 @@ https://api.hefollo.com/API/4k.php
 <https://api.hefollo.com/?action=doc&id=14>
 :::
 
+## Ten API - 随机二次元动漫图片
+
+```
+https://tenapi.cn/acg
+```
+
+:::tip 来源
+<https://docs.tenapi.cn/img.html>
+:::
+
+可添加参数 `type=json` 即 `https://tenapi.cn/acg?return=json`
+
+:::details 响应示例
+```json
+{
+  "code": 200,
+  "imgurl": "https://tva1.sinaimg.cn/large/0072Vf1pgy1fodqncwm01j31hc10xb29.jpg",
+  "width": "1920",
+  "height": "1329"
+}
+```
+:::
