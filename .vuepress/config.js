@@ -18,6 +18,7 @@ module.exports = {
     sidebar: 'auto',
     nav: [
       { text: '萝莉色图', link: '/setu.html'},
+      { text: '图片代理', link: '/proxy.html'},
       { text: '赞助', link: '/donate.html'},
     ],
      lastUpdated: '上次更新'
