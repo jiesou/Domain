@@ -97,7 +97,7 @@ https://www.dmoe.cc/random.php
 ```
 :::
 
-## 小歪 - 二次元动漫动漫
+## 小歪 - 二次元动漫
 
 ```
 https://api.ixiaowai.cn/api/api.php
