@@ -210,3 +210,27 @@ https://tenapi.cn/acg
 }
 ```
 :::
+
+## eees.cc - 随机图片
+
+```
+https://tuapi.eees.cc/api.php?category=dongman&type=302
+```
+
+:::tip 来源
+<https://tuapi.eees.cc>
+:::
+
+可设置项较多，详细使用方式参见来源文档
+
+:::details 响应示例
+```json
+{
+    "error": 0,
+    "result": 200,
+    "width": 1920,
+    "height": 1080,
+    "img": "https:\/\/tuapi.eees.cc\/meinv\/img716697716697716697.jpg"
+}
+```
+:::
