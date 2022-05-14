@@ -26,6 +26,34 @@ https://pixiv.jiecs.workers.dev
 ## 通用
 
 ```
+https://proxy-jiesou.vercel.app/
+```
+
+可代理一切静态资源，但不会替换内容中的超链接（包括 CSS 样式等）**无法拿来翻墙**
+
+不指定 https/http 时发送 http 请求
+
+使用示例：
+
+`https://www.google.com/images/branding/product/1x/gsa_android_144dp.png`
+
+只要在前面加上代理链接
+
+`https://proxy-jiesou.vercel.app/https://www.google.com/images/branding/product/1x/gsa_android_144dp.png`
+
+即可
+
+也可是：
+
+`https://proxy-jiesou.vercel.app/www.google.com/images/branding/product/1x/gsa_android_144dp.png`
+
+也可用来代理 WebAPI，例如：
+
+`https://proxy-jiesou.vercel.app/https://api.telegram.org/bot654321:AAAAAAA/sendMessage?chat_id=123456&text=test`
+
+### 旧版 <Badge text="已弃用" type="warning"/>
+
+```
 https://image-jiesou.vercel.app/?url=
 ```
 
