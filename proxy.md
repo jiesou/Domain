@@ -6,7 +6,7 @@ title: 图片代理
 
 > 支持我们请[点此](/donate.html)
 
-## Pixiv
+## Pixiv <Badge text="被墙" type="warning"/>
 
 ```
 https://pixiv.jiecs.workers.dev
@@ -23,7 +23,7 @@ https://pixiv.jiecs.workers.dev
 即可
 
 
-## 通用
+## 通用 <Badge text="暂停开放" type="danger"/>
 
 ```
 https://proxy-jiesou.vercel.app/

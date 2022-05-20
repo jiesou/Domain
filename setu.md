@@ -8,7 +8,7 @@ title: 萝莉色图
 
 ## lolicon <Badge text="可设置R18" type="warning"/>
 
-### 302封装 <Badge text="自建" /><Badge text="只支持302" />
+### 302封装 <Badge text="自建" /><Badge text="只支持302" /><Badge text="被墙" type="warning"/>
 
 ```
 https://lolicon.jiecs.workers.dev
