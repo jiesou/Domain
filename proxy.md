@@ -23,7 +23,7 @@ https://pixiv.jiecs.workers.dev
 即可
 
 
-## 通用 <Badge text="暂停开放" type="danger"/>
+## 通用 <Badge text="暂停开放" type="error"/>
 
 ```
 https://proxy-jiesou.vercel.app/
