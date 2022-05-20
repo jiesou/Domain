@@ -82,3 +82,7 @@ title: 赞助
 #### prprCloud <Badge text="满100提现" />
 
 <https://console.prprcloud.moe/aff.php?aff=6058>
+
+#### TNTv2 <Badge text="1%" />
+
+<https://tntv2.cyou/auth/register?code=WDMi>
