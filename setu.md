@@ -8,23 +8,23 @@ title: 萝莉色图
 
 ## lolicon <Badge text="可设置R18" type="warning"/>
 
-### 302封装 <Badge text="自建" /><Badge text="只支持302" /><Badge text="被墙" type="warning"/>
+### 302封装 <Badge text="自建" /><Badge text="只支持302" />
 
 ```
-https://lolicon.jiecs.workers.dev
+https://api-jiesou.vercel.app/lolicon
 ```
 
 是原版的封装
 
-比原 API 加了个 302 跳转，自动跳转到第一张图片，指定多个清晰度时跳转第一个
+比原 API 加了个 302 跳转，只支持在 URL 中添加查询字符串传参。自动跳转到第一张图片，不支持指定多个清晰度
 
 所有参数、用法都与原 API 一样，例如原 API 的：
 
 `https://api.lolicon.app/setu/v2?proxy=i.pixiv.re&size=regular&r18=0&tag=萝莉&tag=白丝`
 
-只要换域名
+只要换为
 
-`https://lolicon.jiecs.workers.dev/?proxy=i.pixiv.re&size=regular&r18=0&tag=萝莉&tag=白丝`
+`https://api-jiesou.vercel.app/lolicon?proxy=i.pixiv.re&size=regular&r18=0&tag=萝莉&tag=白丝`
 
 即可
 
