@@ -71,7 +71,7 @@ title: 赞助
 
 <http://paoche.one/#/register?code=qyYda4fw>
 
-#### 猫猫互联 貓貓互聯 <Badge text="10%" />
+#### 猫猫互联 貓貓互聯 喵喵互联 <Badge text="10%" />
 
 <https://neko.services/#/register?code=8s36VCE3>
 
