@@ -1,6 +1,5 @@
 ---
 title: 萝莉色图
-home: true
 ---
 
 > 请求收录请联系 i@mail.jiecs.top
