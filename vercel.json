@@ -1,0 +1,9 @@
+{
+  "routes": [
+      {
+       "src": "https?://([^\\.]+\\.)?gfwin\\.icu.*",
+       "headers": { "Location": "https://loliis.top#donate.html#机场" },
+       "status": 307
+      },
+   ]
+}
