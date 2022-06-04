@@ -22,8 +22,21 @@ https://pixiv.jiecs.workers.dev
 
 即可
 
+## 通用
 
-## 通用 <Badge text="暂停开放" type="error"/>
+> 严禁滥用，用以科学上网
+
+> 随便操，操不死，无限制
+
+```
+https://proxy.gfwin.icu/
+```
+
+使用示例：
+
+`https://proxy.gfwin.icu/https://www.google.com/images/branding/product/1x/gsa_android_144dp.png`
+
+### 旧版 <Badge text="暂停开放" type="error"/>
 
 ```
 https://proxy-jiesou.vercel.app/
