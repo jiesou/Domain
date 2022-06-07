@@ -52,7 +52,7 @@ title: 赞助
 
 ### 机场
 
-#### 几鸡 <Badge text="60%" />
+#### 一元机场 <Badge text="60%" />
 
 <https://一元机场.com/#/register?code=NXktkwN6>
 
