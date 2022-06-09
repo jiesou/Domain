@@ -1,7 +1,5 @@
 name: VuePress CI
 on:
-  pull_request:
-    types: [opened, reopened]
   push:
     branches:    
       - main
@@ -43,20 +41,12 @@ jobs:
           ${{ runner.os }}-nodemodules-
 
     - name: Install node modules
-      if: steps.cache-node-modules.outputs.cache-hit != 'true'
       run: yarn
 
     - name: VuePress Deploy
-      if: github.event_name != 'pull_request'
       run: |
         yarn deploy
 
-    - name: VuePress Build
-      if: github.event_name == 'pull_request'
-      run: |
-        vuepress build
-
     - name: Commit
-      if: github.event_name != 'pull_request'
       run: |
         (git add . && git commit -m "Actions: Update" && git push -f) || true
