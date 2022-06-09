@@ -1,4 +1,4 @@
-name: VuePress CI
+name: VuePress PR
 on:
   pull_request:
     types: [opened, reopened]
