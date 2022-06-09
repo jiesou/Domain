@@ -1,5 +1,11 @@
-name: VuePress
-on: [pull_request,push]
+name: VuePress CI
+on:
+  pull_request:
+    types: [opened, reopened]
+  push:
+    branches:    
+      - main
+
 jobs:
   build:
     runs-on: ubuntu-latest
