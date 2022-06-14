@@ -60,7 +60,7 @@ title: 赞助
 
 <https://b.luxury/waf/d0lcud1j24ADPOgi2>
 
-#### 可乐云 KELECLOUD <Badge text="19%" />
+#### 可乐云 <Badge text="19%" />
 
 <https://my.kelecloud.xyz/#/register?code=o86AsWP0>
 
@@ -68,21 +68,25 @@ title: 赞助
 
 <https://sdyun.cc/#/register?code=5B3cj4s2>
 
-#### 猫猫互联 貓貓互聯 喵喵互联 <Badge text="10%" />
+#### 貓貓互聯 <Badge text="10%" />
 
 <https://neko.services/#/register?code=8s36VCE3>
 
-#### V2云 V2站 <Badge text="10%" />
+#### V2云 <Badge text="10%" />
 
 <https://cwv587.com/auth/register?code=ctbD>
 
-#### 超级跑车 CJPC <Badge text="10%" />
+#### 超级跑车 <Badge text="10%" />
 
 <http://paoche.one/#/register?code=qyYda4fw>
 
 #### nanoPort <Badge text="10%" />
 
 <https://v2.nanoport.xyz/#/register?code=yhnszbbD>
+
+#### StarLink <Badge text="10%" />
+
+<https://starlink9527.com/#/register?code=Qw4fKqh5>
 
 #### 百分百鲜橙汁 <Badge text="7%" />
 
