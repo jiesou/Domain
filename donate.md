@@ -90,7 +90,7 @@ title: 赞助
 
 #### 百分百鲜橙汁 <Badge text="7%" />
 
-<https://xianchengzhi.top/#/register?code=SxHfyV2V>
+<https://prprcheng.com/#/register?code=2WTN1yct>
 
 #### prprCloud <Badge text="满100提现" />
 
