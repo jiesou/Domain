@@ -64,6 +64,10 @@ title: 赞助
 
 <https://ceilingcloud.online/#/register?code=pf5X8uKm>
 
+#### 白嫖机场 <Badge text="20%" />
+
+<https://bpjc.xyz/#/register?code=EHRfg1UL>
+
 #### 可乐云 <Badge text="19%" />
 
 <https://my.kelecloud.xyz/#/register?code=o86AsWP0>
