@@ -60,6 +60,10 @@ title: 赞助
 
 <https://b.luxury/waf/d0lcud1j24ADPOgi2>
 
+#### CeilingCloud（原 halo 光环）<Badge text="30%" />
+
+<https://ceilingcloud.online/#/register?code=pf5X8uKm>
+
 #### 可乐云 <Badge text="19%" />
 
 <https://my.kelecloud.xyz/#/register?code=o86AsWP0>
