@@ -64,6 +64,10 @@ title: 赞助
 
 <https://ceilingcloud.online/#/register?code=pf5X8uKm>
 
+#### TeaCat <Badge text="20%" />
+
+<https://teacat.cloud/#/register?code=RQECVD8a>
+
 #### 白嫖机场 <Badge text="20%" />
 
 <https://bpjc.xyz/#/register?code=EHRfg1UL>
