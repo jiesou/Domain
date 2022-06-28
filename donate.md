@@ -54,17 +54,23 @@ title: 赞助
 
 #### 一元机场 <Badge text="60%" />
 
+> 正用着
+
 <https://一元机场.com/#/register?code=NXktkwN6>
 
-#### 几鸡 <Badge text="36%" />
+#### 几鸡 <Badge text="36%" /> <Badge text="大机场" />
 
 <https://b.luxury/waf/d0lcud1j24ADPOgi2>
 
 #### CeilingCloud（原 halo 光环）<Badge text="30%" />
 
+> 正用着
+
 <https://ceilingcloud.online/#/register?code=pf5X8uKm>
 
 #### TeaCat <Badge text="20%" />
+
+> 曾用过试用
 
 <https://teacat.cloud/#/register?code=RQECVD8a>
 
@@ -74,25 +80,37 @@ title: 赞助
 
 #### 可乐云 <Badge text="19%" />
 
+> 正用着
+
 <https://my.kelecloud.xyz/#/register?code=o86AsWP0>
 
-#### 闪电 <Badge text="15%" />
+#### 闪电 <Badge text="15%" /> <Badge text="大机场" />
+
+> 很久很久前用过
 
 <https://sdyun.cc/#/register?code=5B3cj4s2>
 
 #### 貓貓互聯 <Badge text="10%" />
 
+> 正用着
+
 <https://neko.services/#/register?code=8s36VCE3>
 
 #### V2云 <Badge text="10%" />
+
+> 很久前用过
 
 <https://cwv587.com/auth/register?code=ctbD>
 
 #### 超级跑车 <Badge text="10%" />
 
+> 曾用过
+
 <http://paoche.one/#/register?code=qyYda4fw>
 
 #### nanoPort <Badge text="10%" />
+
+> 曾用过试用
 
 <https://v2.nanoport.xyz/#/register?code=yhnszbbD>
 
@@ -100,14 +118,20 @@ title: 赞助
 
 <https://starlink9527.com/#/register?code=Qw4fKqh5>
 
-#### 百分百鲜橙汁 <Badge text="7%" />
+#### 百分百鲜橙汁 <Badge text="7%" /> <Badge text="跑路风险" type="warning"/>
+
+> 曾用过
 
 <https://prprcheng.com/#/register?code=2WTN1yct>
 
-#### prprCloud <Badge text="满100提现" />
+#### prprCloud
+
+> 曾用过
 
 <https://console.prprcloud.moe/aff.php?aff=6058>
 
 #### TNTv2 <Badge text="1%" />
+
+> 很久前用过
 
 <https://tntv2.cyou/auth/register?code=WDMi>
