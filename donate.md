@@ -62,7 +62,7 @@ title: 赞助
 
 <https://b.luxury/waf/d0lcud1j24ADPOgi2>
 
-#### CeilingCloud（原 halo 光环）<Badge text="30%" />
+#### CeilingCloud（原 halo 光环）<Badge text="30%" /> <Badge text="跑路风险" type="warning"/>
 
 > 正用着
 
@@ -118,9 +118,9 @@ title: 赞助
 
 <https://starlink9527.com/#/register?code=Qw4fKqh5>
 
-#### 百分百鲜橙汁 <Badge text="7%" /> <Badge text="跑路风险" type="warning"/>
+#### PRPR橙（原百分百鲜橙汁） <Badge text="7%" /> <Badge text="跑路风险" type="warning"/>
 
-> 曾用过
+> 正用着
 
 <https://prprcheng.com/#/register?code=2WTN1yct>
 
