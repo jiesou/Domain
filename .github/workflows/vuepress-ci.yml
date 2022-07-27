@@ -47,11 +47,6 @@ jobs:
       run: |
         yarn deploy
 
-    - name: Upload to IPFS
-      uses: aquiladev/ipfs-action@v0.2.2-alpha.0
-      with:
-        path: ./.vuepress/dist/
-
     - name: Commit
       run: |
         (git add . && git commit -m "Actions: Update" && git push -f) || true
