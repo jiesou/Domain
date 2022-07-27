@@ -48,7 +48,7 @@ jobs:
         yarn deploy
 
     - name: Upload to IPFS
-      uses: aquiladev/ipfs-action@v1
+      uses: aquiladev/ipfs-action@v0.2.2-alpha.0
       with:
         path: ./.vuepress/dist/
 
