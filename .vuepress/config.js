@@ -20,6 +20,7 @@ module.exports = {
       { text: '萝莉色图', link: '/setu.html'},
       { text: '实用程序', link: '/others.html'},
       { text: '图片代理', link: '/proxy.html'},
+      { text: 'HYPIXEL加速', link: '/hypixel.html' },
       { text: '赞助我们', link: '/donate.html'},
       { text: '推荐翻墙工具(AD)', link: '/donate.html#机场'},
     ],
