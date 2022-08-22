@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "chalk": "2.4.2",
-    "commander": "^9.3.0",
+    "commander": "^9.4.0",
     "esm": "^3.2.25",
     "vue-template-compiler": "^2.7.9",
     "vuepress-plugin-autometa": "^0.1.13",
