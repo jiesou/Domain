@@ -139,10 +139,10 @@ tr46@^1.0.1:
   dependencies:
     punycode "^2.1.0"
 
-vue-template-compiler@^2.7.7:
-  version "2.7.7"
-  resolved "https://registry.npmjs.org/vue-template-compiler/-/vue-template-compiler-2.7.7.tgz"
-  integrity sha512-vxOsjWhvDPyMW7QwXPecNmTNwKyXiF+j4KjBFjDxYPuY0xvqCT5o9WrapVItR/Nrh0XThfBaL19kXFSNYtbKmw==
+vue-template-compiler@^2.7.9:
+  version "2.7.9"
+  resolved "https://registry.yarnpkg.com/vue-template-compiler/-/vue-template-compiler-2.7.9.tgz#ffbeb1769ae6af65cd405a6513df6b1e20e33616"
+  integrity sha512-NPJxt6OjVlzmkixYg0SdIN2Lw/rMryQskObY89uAMcM9flS/HrmLK5LaN1ReBTuhBgnYuagZZEkSS6FESATQUQ==
   dependencies:
     de-indent "^1.0.2"
     he "^1.2.0"
