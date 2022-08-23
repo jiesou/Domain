@@ -51,7 +51,7 @@ title: 赞助
 
 <https://www.bt.cn/?invite_code=MV95b3poemQ>
 
-### 科学上网翻墙机场 AFF
+### 科学上网翻墙机场
 
 #### 一元机场 <Badge text="60%" />
 

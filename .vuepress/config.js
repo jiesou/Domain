@@ -22,7 +22,7 @@ module.exports = {
       { text: '图片代理', link: '/proxy.html'},
       { text: 'HYPIXEL加速', link: '/hypixel.html' },
       { text: '赞助我们', link: '/donate.html'},
-      { text: '推荐翻墙工具(AD)', link: '/donate.html#机场'},
+      { text: '推荐翻墙工具(AD)', link: '/donate.html#科学上网翻墙机场'},
     ],
      lastUpdated: '上次更新'
   },
