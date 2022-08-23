@@ -1,7 +1,7 @@
 ---
-title: 赞助
+title: 赞助我们
 ---
-# 赞助
+# 赞助我们
 
 ![扫码支付](https://cdn.jiecs.top/img/2022/03/about_pay.jpg)
 
