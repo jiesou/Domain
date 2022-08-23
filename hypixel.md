@@ -1,6 +1,7 @@
 ---
 title: HYPIXEL加速
 ---
+# HYPIXEL加速
 
 > 以下为经收集整理，可用的 Minecraft Hypixel 服务器（hypixel.net）加速 IP
 >

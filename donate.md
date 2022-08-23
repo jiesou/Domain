@@ -1,6 +1,7 @@
 ---
 title: 赞助
 ---
+# 赞助
 
 ![扫码支付](https://cdn.jiecs.top/img/2022/03/about_pay.jpg)
 
@@ -50,7 +51,7 @@ title: 赞助
 
 <https://www.bt.cn/?invite_code=MV95b3poemQ>
 
-### 机场
+### 科学上网翻墙机场 AFF
 
 #### 一元机场 <Badge text="60%" />
 
