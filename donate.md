@@ -63,17 +63,21 @@ title: 赞助我们
 
 <https://b.luxury/waf/d0lcud1j24ADPOgi2>
 
-#### CeilingCloud（原 halo 光环）<Badge text="30%" /> <Badge text="跑路风险" type="warning"/>
+#### EEVPN <Badge text="20%" />
 
-> 正用着
-
-<https://ceilingcloud.online/#/register?code=pf5X8uKm>
+<https://www.eevpn.com/#/register?code=zTJo3C9m>
 
 #### TeaCat <Badge text="20%" />
 
 > 曾用过试用
 
 <https://teacat.cloud/#/register?code=RQECVD8a>
+
+#### 雪橇（原 Ceiling、halo、big）<Badge text="30%" /> <Badge text="跑路风险" type="warning"/>
+
+> 高跑路风险
+
+<https://ceilingcloud.online/#/register?code=pf5X8uKm>
 
 #### 白嫖机场 <Badge text="20%" />
 
