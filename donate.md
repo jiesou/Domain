@@ -73,7 +73,7 @@ title: 赞助我们
 
 <https://teacat.cloud/#/register?code=RQECVD8a>
 
-#### 雪橇（原 Ceiling、halo、big）<Badge text="30%" /> <Badge text="跑路风险" type="warning"/>
+#### 雪橇（原 Ceiling、Apolo、halo、big）<Badge text="30%" /> <Badge text="跑路风险" type="warning"/>
 
 > 高跑路风险
 
