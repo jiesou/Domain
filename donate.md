@@ -95,7 +95,11 @@ title: 赞助我们
 
 <https://sdyun.cc/#/register?code=5B3cj4s2>
 
-#### 貓貓互聯 <Badge text="10%" />
+#### 古拉 <Badge text="10%" /> <Badge text="小机场" />
+
+<https://1.moegura.com/#/register?code=qxUZdz23>
+
+#### 貓貓互聯 <Badge text="10%" /> <Badge text="小机场" />
 
 > 正用着
 
