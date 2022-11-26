@@ -28,6 +28,8 @@ https://pixiv.jiecs.workers.dev
 
 > 随便操，操不死，无限制
 
+> 二进制流暂无法代理（包括图片）
+
 ```
 https://proxy.gfwin.icu/
 ```

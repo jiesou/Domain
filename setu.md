@@ -12,7 +12,7 @@ title: 萝莉色图
 ### 302封装 <Badge text="自建" /><Badge text="只支持302" />
 
 ```
-https://api-jiesou.vercel.app/lolicon
+https://api.jiecs.top/lolicon
 ```
 
 是原版的封装
@@ -25,7 +25,7 @@ https://api-jiesou.vercel.app/lolicon
 
 只要换为
 
-`https://api-jiesou.vercel.app/lolicon?proxy=i.pixiv.re&size=regular&r18=0&tag=萝莉&tag=白丝`
+`https://api.jiecs.top/lolicon?proxy=i.pixiv.re&size=regular&r18=0&tag=萝莉&tag=白丝`
 
 即可
 
