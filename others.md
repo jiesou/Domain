@@ -15,9 +15,14 @@ https://api.jiecs.top/bingimg
 
 是 `https://www.bing.com/HPImageArchive.aspx?format=js&n=1` 的封装，直接访问即可
 
-可添加 idx 参数，如 `https://api.jiecs.top/bingimg?idx=1`
+可用参数：
 
-可添加 region 参数，用于指定跳转后链接的子域，如 `https://api-jiesou.vercel.app/bingimg?region=cn`，返回的链接将以 `https://cn.bing.com` 开始，不填写则为 `https://bing.com`
+idx 如 `https://api.jiecs.top/bingimg?idx=1`，指定图片索引（通常是指几天前的图片）
+
+region 用于指定跳转后链接的子域，如 `https://api-jiesou.vercel.app/bingimg?region=cn`，返回的链接将以 `https://cn.bing.com` 开始，不填写则为 `https://bing.com`
+
+resize 可设置任何内容来设置跳转图片大小为 1280x720，默认是 1920x1080。适用于 Web 场景加速下载
+
 
 ## Heroku-PagerMaid <Badge text="自写" />
 
