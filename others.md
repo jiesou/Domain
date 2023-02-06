@@ -3,7 +3,7 @@ title: 实用程序
 ---
 # 实用程序
 
-> 请求收录请联系 i@mail.jiecs.top
+> 请求收录请联系 i@jiecs.top
 
 > 支持我们请[点此](/donate.html)
 
