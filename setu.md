@@ -3,7 +3,7 @@ title: 萝莉色图
 ---
 # 萝莉色图
 
-> 请求收录请联系 i@mail.jiecs.top
+> 请求收录请联系 i@jiecs.top
 
 > 支持我们请[点此](/donate.html)
 
