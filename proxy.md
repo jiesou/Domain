@@ -26,17 +26,11 @@ https://pixiv.jiecs.workers.dev
 
 > 严禁滥用，用以科学上网
 
-> 随便操，操不死，无限制
-
-> 二进制流暂无法代理（包括图片）
-
-```
-https://proxy.gfwin.icu/
-```
+> 随便操，操不死，无限制，[开源](https://github.com/jiesou/Deta-Proxy)
 
 使用示例：
 
-`https://proxy.gfwin.icu/https://www.google.com/images/branding/product/1x/gsa_android_144dp.png`
+`https://see.loliis.top/www.google.com/favicon.ico`
 
 ### 旧版 <Badge text="暂停开放" type="error"/>
 
